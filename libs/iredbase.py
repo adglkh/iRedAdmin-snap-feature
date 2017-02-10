@@ -41,6 +41,7 @@ db_iredadmin = web.database(
     db=settings.iredadmin_db_name,
     user=settings.iredadmin_db_user,
     pw=settings.iredadmin_db_password,
+    unix_socket=settings.iredadmin_unix_socket,
 )
 db_iredadmin.supports_multiple_insert = True
 

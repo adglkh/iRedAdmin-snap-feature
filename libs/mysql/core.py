@@ -18,6 +18,7 @@ class MySQLWrap:
                 db=settings.vmail_db_name,
                 user=settings.vmail_db_user,
                 pw=settings.vmail_db_password,
+                unix_socket=settings.vmail_unix_socket,
                 charset='utf8',
             )
             self.conn.supports_multiple_insert = True
